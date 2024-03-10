@@ -1,0 +1,170 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #1c7c54;
+  color: #fff;
+  padding: 10px 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* CSS Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+/* CSS Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #1c7c54;
+  color: #fff;
+  padding: 2px;
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.navigation {
+  display: flex;
+  list-style: none;
+}
+
+.navigation li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.navigation a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.navigation a:hover {
+  background-color: #16503e;
+}
+
+
+
+/* Hero Section Styles */
+.hero {
+  background-image: url(/Img/Help/bg.jpg);
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero .container {
+  max-width: 600px;
+  margin: 0 auto;
+  
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #025464;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: #025464;
+}
+
+.hero .btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #116D6E;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+  background-color: #116D6E;
+  color: #fff;
+}
+
+
+/* FAQ Section Styles */
+.faq {
+  background-color: #5C8984;
+  padding: 80px 0;
+}
+
+.faq .container {
+  max-width: 800px;
+  margin: 0 auto;
+  
+}
+
+.faq-heading {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #245953;
+}
+
+.faq-item {
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.faq-question {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #C2DEDC;
+}
+
+.faq-answer {
+  font-size: 16px;
+  color: #C3EDC0;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+
+}

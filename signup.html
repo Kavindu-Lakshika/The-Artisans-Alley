@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" href="/css/signup.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- nav bar start -->
+    <nav class="navbar navbar-expand-lg navbar-dark header-color">
+        <div class="container">
+            <a class="navbar-brand txt-color" href="/index.html">
+                The Artisan’s Alley
+            </a>
+        </div>
+    </nav>
+    <!-- nav bar end -->
+    <div class="container ">
+        <div class="row pt-5">
+            <div class="col-md-6">
+                <ul class="nav nav-tabs nav-fill" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active txt-color" data-bs-toggle="tab" href="#Personal_form"
+                            aria-selected="true" role="tab">Personal account</a>
+                    </li>
+                    <li class="nav-item " role="presentation">
+                        <a class="nav-link txt-color" data-bs-toggle="tab" href="#Business_form" aria-selected="false"
+                            tabindex="-1" role="tab">Business account</a>
+                    </li>
+                </ul>
+                <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane fade show active" id="Personal_form" role="tabpanel">
+                        <div class="content-fluid pt-3">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <form id="personalForm">
+                                        <!-- input box start -->
+                                        <div class="row">
+                                            <div class="col-md-6 txt-color">
+                                                <label> First Name</label>
+                                                <input type="text" class="form-control search-bar" id="fname"
+                                                    placeholder="First Name">
+                                            </div>
+                                            <div class="col-md-6 txt-color">
+                                                <label> Last Name</label>
+                                                <input type="text" class="form-control search-bar" id="lname"
+                                                    placeholder="Last Name">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12 pt-1 pb-1  txt-color">
+                                                <label> User Name</label>
+                                                <input type="text" class="form-control search-bar" id="username"
+                                                    placeholder="User Name">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12 pt-1 pb-1  txt-color">
+                                                <label> Email</label>
+                                                <input type="email" class="form-control search-bar" id="staticEmail"
+                                                    placeholder="Email">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6  pt-1 pb-1 txt-color">
+                                                <label> Password</label>
+                                                <input type="password" class="form-control search-bar" id="pwd"
+                                                    placeholder="Password">
+                                            </div>
+                                            <div class="col-md-6  pt-1 pb-1 txt-color">
+                                                <label> Re Enter</label>
+                                                <input type="password" class="form-control search-bar" id="pwd"
+                                                    placeholder="Confirm">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12 pt-1 pb-1 txt-color">
+                                                <label> Phone Number</label>
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text">+94</span>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12 pt-2 pb-2">
+                                                <div class="form-check txt-color">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        I agree to the <a href="">terms</a> and <a
+                                                            href="">conditions</a>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- input box end -->
+                                        <!-- sign up -->
+                                        <div class="row">
+                                            <div class="col-md-12 pt-2">
+                                                <a href="">
+                                                    <button type="submit" class=" btn txt-color">Sign Up</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- sign up -->
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="Business_form" role="tabpanel">
+                    <div class="content-fluid">
+                        <div class="row pt-3">
+                            <div class="col-md-12">
+                                <form action="" id="businessForm">
+                                    <fieldset>
+                                        <div class="row">
+                                            <div class="col-md-12 pt-1 txt-color">
+                                                <label>Business Name</label>
+                                                <input type="text" class="form-control search-bar " id="businessName"
+                                                    placeholder="Business Name">
+                                                <p style="font-size:12px;">Please enter your business name.</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12 pb-1  txt-color">
+                                                <label>Business Email</label>
+                                                <input type="email" class="form-control search-bar " id="businessEmail"
+                                                    placeholder="Business Email">
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-12 pt-1 pb-1  txt-color">
+                                                <label>Password</label>
+                                                <input type="password" class="form-control search-bar " id="pwd"
+                                                    placeholder="Password">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12 pt-1 pb1 txt-color">
+                                                <label>Business location</label>
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option value="1">Kandy</option>
+                                                    <option value="2">Ampara</option>
+                                                    <option value="3">Anuradhapura</option>
+                                                    <option value="4">Badulla</option>
+                                                    <option value="5">Batticaloa</option>
+                                                    <option value="6">Colombo</option>
+                                                    <option value="7">Galle</option>
+                                                    <option value="8">Gampaha</option>
+                                                    <option value="9">Hambantota</option>
+                                                    <option value="10">Jaffna</option>
+                                                    <option value="11">Kegalle</option>
+                                                    <option value="12">Kilinochchi</option>
+                                                    <option value="13">Kurunegala</option>
+                                                    <option value="14">Mannar</option>
+                                                    <option value="15">Mathale</option>
+                                                    <option value="16">Matara</option>
+                                                    <option value="17">Monaragala</option>
+                                                    <option value="18">Mullaitivu</option>
+                                                    <option value="19">Nuwara Eliya</option>
+                                                    <option value="20">Polonnaruwa</option>
+                                                    <option value="21">Puttalam</option>
+                                                    <option value="22">Rathnapura</option>
+                                                    <option value="23">Trincomalee</option>
+                                                    <option value="24">Vavuniya</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12 pt-1 pb-1 txt-color">
+                                                <label> Phone Number</label>
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text">+94</span>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12 pt-2 pb-2">
+                                                <div class="form-check txt-color">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        I agree to the <a href="/Terms and condition.html">terms</a> and <a
+                                                            href="/Terms and condition.html">conditions</a>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12 pb-3">
+                                                <a href="">
+                                                    <button type="submit" class=" btn txt-color">Sign
+                                                        Up</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1">
+                <span class="vLine"></span>
+            </div>
+            <div class="col-md-5">
+                <!-- social media icon start -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="list-unstyled txt-size social">
+                            <li>
+                                <a class="text-white btn" href="https://www.facebook.com/login/">
+                                    <div class="row">
+                                        <div class="col-md-1 text-center">
+                                            <i class="fab fa-facebook-square px-5"></i>
+                                        </div>
+                                        <div class="col-md-11 text-center">
+                                            Facebook
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-white btn" href="https://accounts.google.com/">
+                                    <div class="row">
+                                        <div class="col-md-1 text-center">
+                                            <i class="fab fa-google px-5"></i>
+                                        </div>
+                                        <div class="col-md-11 text-center">
+                                            Google
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-white btn" href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Den">
+                                    <div class="row">
+                                        <div class="col-md-1 text-center">
+                                            <i class="fab fa-twitter px-5"></i>
+                                        </div>
+                                        <div class="col-md-11 text-center">
+                                            Twitter
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- social media icon end -->
+            </div>
+        </div>
+    </div>
+    <script src="/js/bootstrap.min.js"></script>
+</body>
+
+</html>

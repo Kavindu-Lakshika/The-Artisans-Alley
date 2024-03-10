@@ -1,0 +1,38 @@
+.frm-color{
+    background:#082425;
+}
+.txt-color{
+    color: #9CA7A7;
+}
+.btn{
+    background-color:#20393A ;
+    border-radius: 15px 50px;
+    width: 100%;
+}
+.btn:hover{
+    background-color:#20393A ;
+    color: white;
+}
+.txt-size{
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color: #9CA7A7;
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #9CA7A7;
+}
+.modal-body-color{
+    background-color: #082425;
+    border: 2px solid white;
+    border-radius: 25px;
+}
